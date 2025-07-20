@@ -1,0 +1,20 @@
+# Claude Code Windows Installer Requirements
+# 
+# This installer uses only Python standard library modules
+# No external dependencies required!
+#
+# The installer requires Python 3.6+ and uses these built-in modules:
+# - os, sys, subprocess (system interaction)
+# - pathlib (path handling)
+# - winreg (Windows registry access)
+# - ctypes (Windows API access)
+# - logging (comprehensive logging)
+# - argparse (command line arguments)
+# - json (configuration handling)
+#
+# To install Python (if not already installed):
+# 1. Download from https://python.org
+# 2. Make sure to check "Add Python to PATH" during installation
+# 3. Verify installation: python --version
+#
+# No pip install needed - everything is built-in! 🎉 

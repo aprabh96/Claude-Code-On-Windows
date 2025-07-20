@@ -1,0 +1,52 @@
+2025-07-20 11:50:55,819 - INFO - Running command: wsl --version
+2025-07-20 11:50:55,851 - INFO - Running command: wsl -l -v
+2025-07-20 11:50:55,883 - INFO - WSL list command returned: 0
+2025-07-20 11:50:55,883 - INFO - WSL list output (raw): ' \x00 \x00N\x00A\x00M\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00S\x00T\x00A\x00T\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00V\x00E\x00R\x00S\x00I\x00O\x00N\x00\n\x00\n\x00*\x00 \x00U\x00b\x00u\x00n\x00t\x00u\x00 \x00 \x00 \x00 \x00S\x00t\x00o\x00p\x00p\x00e\x00d\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x002\x00\n\x00\n\x00'
+2025-07-20 11:50:55,884 - INFO - WSL list output (cleaned): 'NAME      STATE           VERSION
+
+* Ubuntu    Stopped         2'
+2025-07-20 11:50:55,884 - INFO - Checking for 'ubuntu' in cleaned output: True
+2025-07-20 11:50:55,884 - INFO - Running command: wsl -d Ubuntu bash -ic which claude
+2025-07-20 11:51:00,467 - INFO - Interactive 'which claude' returned: 0, output: '/home/arora/.nvm/versions/node/v22.14.0/bin/claude\n'
+2025-07-20 11:51:00,468 - INFO - WSL detected: True
+2025-07-20 11:51:00,468 - INFO - Ubuntu detected: True
+2025-07-20 11:51:00,468 - INFO - Claude Code detected: True
+2025-07-20 11:51:00,468 - INFO - Context Menu detected: True
+2025-07-20 11:51:04,138 - INFO - Running command: wsl --version
+2025-07-20 11:51:04,170 - INFO - Running command: wsl -l -v
+2025-07-20 11:51:04,213 - INFO - WSL list command returned: 0
+2025-07-20 11:51:04,213 - INFO - WSL list output (raw): ' \x00 \x00N\x00A\x00M\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00S\x00T\x00A\x00T\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00V\x00E\x00R\x00S\x00I\x00O\x00N\x00\n\x00\n\x00*\x00 \x00U\x00b\x00u\x00n\x00t\x00u\x00 \x00 \x00 \x00 \x00R\x00u\x00n\x00n\x00i\x00n\x00g\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x002\x00\n\x00\n\x00'
+2025-07-20 11:51:04,213 - INFO - WSL list output (cleaned): 'NAME      STATE           VERSION
+
+* Ubuntu    Running         2'
+2025-07-20 11:51:04,214 - INFO - Checking for 'ubuntu' in cleaned output: True
+2025-07-20 11:51:04,216 - INFO - Running command: wsl -d Ubuntu bash -ic which claude
+2025-07-20 11:51:05,083 - INFO - Interactive 'which claude' returned: 0, output: '/home/arora/.nvm/versions/node/v22.14.0/bin/claude\n'
+2025-07-20 11:51:05,084 - INFO - WSL detected: True
+2025-07-20 11:51:05,087 - INFO - Ubuntu detected: True
+2025-07-20 11:51:05,090 - INFO - Claude Code detected: True
+2025-07-20 11:51:05,092 - INFO - Context Menu detected: False
+2025-07-20 11:51:08,438 - INFO - Running command: wsl --version
+2025-07-20 11:51:08,468 - INFO - Running command: wsl -l -v
+2025-07-20 11:51:08,501 - INFO - WSL list command returned: 0
+2025-07-20 11:51:08,501 - INFO - WSL list output (raw): ' \x00 \x00N\x00A\x00M\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00S\x00T\x00A\x00T\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00V\x00E\x00R\x00S\x00I\x00O\x00N\x00\n\x00\n\x00*\x00 \x00U\x00b\x00u\x00n\x00t\x00u\x00 \x00 \x00 \x00 \x00R\x00u\x00n\x00n\x00i\x00n\x00g\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x002\x00\n\x00\n\x00'
+2025-07-20 11:51:08,503 - INFO - WSL list output (cleaned): 'NAME      STATE           VERSION
+
+* Ubuntu    Running         2'
+2025-07-20 11:51:08,503 - INFO - Checking for 'ubuntu' in cleaned output: True
+2025-07-20 11:51:08,503 - INFO - Running command: wsl -d Ubuntu bash -ic which claude
+2025-07-20 11:51:09,379 - INFO - Interactive 'which claude' returned: 0, output: '/home/arora/.nvm/versions/node/v22.14.0/bin/claude\n'
+2025-07-20 11:51:11,426 - INFO - Running command: wsl --version
+2025-07-20 11:51:11,455 - INFO - Running command: wsl -l -v
+2025-07-20 11:51:11,490 - INFO - WSL list command returned: 0
+2025-07-20 11:51:11,490 - INFO - WSL list output (raw): ' \x00 \x00N\x00A\x00M\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00S\x00T\x00A\x00T\x00E\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00V\x00E\x00R\x00S\x00I\x00O\x00N\x00\n\x00\n\x00*\x00 \x00U\x00b\x00u\x00n\x00t\x00u\x00 \x00 \x00 \x00 \x00R\x00u\x00n\x00n\x00i\x00n\x00g\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x002\x00\n\x00\n\x00'
+2025-07-20 11:51:11,490 - INFO - WSL list output (cleaned): 'NAME      STATE           VERSION
+
+* Ubuntu    Running         2'
+2025-07-20 11:51:11,491 - INFO - Checking for 'ubuntu' in cleaned output: True
+2025-07-20 11:51:11,491 - INFO - Running command: wsl -d Ubuntu bash -ic which claude
+2025-07-20 11:51:12,366 - INFO - Interactive 'which claude' returned: 0, output: '/home/arora/.nvm/versions/node/v22.14.0/bin/claude\n'
+2025-07-20 11:51:12,367 - INFO - WSL detected: True
+2025-07-20 11:51:12,367 - INFO - Ubuntu detected: True
+2025-07-20 11:51:12,368 - INFO - Claude Code detected: True
+2025-07-20 11:51:12,369 - INFO - Context Menu detected: True
