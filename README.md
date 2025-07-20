@@ -6,7 +6,7 @@ A modern, robust installer for integrating Claude Code with Windows Explorer con
 
 **Right-click `run.bat` → "Run as administrator" → Done!** ✨
 
-## ✨ What's New (v2.0)
+## ✨ What's New (v0.1)
 
 This project has been **completely overhauled** with a modern Python-based installer that fixes all the previous issues:
 
@@ -168,9 +168,9 @@ The installer can set up everything you need:
 - **Clean uninstall**: Removes all traces when uninstalling
 - **Audit trail**: Comprehensive logging of all actions
 
-## 🆚 What Changed from v1.x
+## 🆚 What Changed from Legacy
 
-| Old (v1.x) | New (v2.0) | Improvement |
+| Old (Legacy) | New (v0.1) | Improvement |
 |------------|------------|-------------|
 | 6+ batch files | 1 main file (`run.bat`) | Much simpler |
 | Complex 3-step process | One-click install | Faster setup |

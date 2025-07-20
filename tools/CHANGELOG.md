@@ -1,10 +1,10 @@
 # Changelog
 
-## [2.0.0] - 2025-01-17 - MAJOR OVERHAUL
+## [0.1.0] - 2025-01-20 - INITIAL RELEASE
 
-### 🎉 Complete Project Rewrite
+### 🎉 Complete Project Creation
 
-This version represents a **complete architectural overhaul** that replaces the fragile batch/PowerShell approach with a modern, robust Python-based solution.
+This version represents the **initial release** with a modern, robust Python-based installer that provides seamless Windows context menu integration.
 
 ### ✨ Added
 
@@ -18,7 +18,7 @@ This version represents a **complete architectural overhaul** that replaces the 
 
 #### New Documentation
 - **`QUICK_START.md`** - Get up and running in under 5 minutes
-- **Updated `README.md`** - Comprehensive documentation for v2.0
+- **Updated `README.md`** - Comprehensive documentation for v0.1
 - **`requirements.txt`** - Python dependencies (none required!)
 - **`CHANGELOG.md`** - This file documenting changes
 
@@ -123,6 +123,6 @@ Just use the new `install.bat` - everything is automatic!
 
 ### 🎉 Bottom Line
 
-**Version 2.0 transforms this from a fragile, multi-step batch script collection into a robust, professional-grade installer that "just works."**
+**Version 0.1 provides a robust, professional-grade installer that "just works" from day one.**
 
 Users can now go from zero to working Claude Code context menu integration in under 5 minutes with a single click, and when things go wrong, they get clear error messages and self-repair capabilities instead of cryptic failures. 
